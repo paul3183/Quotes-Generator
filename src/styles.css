@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.fa-sharp {
+  font-size: 80px;
+}
+
+p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.text {
+  display: flex;
+  gap: 10px;
+  top: 10px;
+  padding: 10px;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  padding:  40px 0;
+  position: absolute;
+  /*text-align: center;
+  *//*justify-content: center;
+  */
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.quoteBox {
+  /* padding-top: 100px; */
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 50px;
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border-style: none;
+}
